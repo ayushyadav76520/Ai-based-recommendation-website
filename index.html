@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RecoMind — Find your next watch, listen, read</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="mark">RM</div>
+  <div class="head-text">
+    <h1>RecoMind</h1>
+    <p>Tell it your mood. It hands back a shortlist.</p>
+  </div>
+</header>
+
+<main>
+  <section class="intake">
+    <div class="stub-row" role="tablist" aria-label="Category">
+      <button class="stub active" data-cat="movie" role="tab" aria-selected="true">
+        <span class="stub-num">01</span>
+        <span class="stub-label">Movies</span>
+      </button>
+      <button class="stub" data-cat="music" role="tab" aria-selected="false">
+        <span class="stub-num">02</span>
+        <span class="stub-label">Music</span>
+      </button>
+      <button class="stub" data-cat="book" role="tab" aria-selected="false">
+        <span class="stub-num">03</span>
+        <span class="stub-label">Books</span>
+      </button>
+    </div>
+
+    <form id="mood-form">
+      <label for="mood">What's the mood, or what do you already love?</label>
+      <textarea id="mood" rows="3" placeholder="e.g. slow-burn heist movies with a great ending twist, nothing too violent" required></textarea>
+
+      <label for="favorites" class="optional-label">Anything you already like? <span>(optional)</span></label>
+      <input id="favorites" type="text" placeholder="e.g. Parasite, Whiplash, Knives Out">
+
+      <button type="submit" id="submit-btn">Get recommendations</button>
+    </form>
+  </section>
+
+  <section id="results" class="results" aria-live="polite"></section>
+
+  <section class="history-section">
+    <div class="history-head">
+      <h2>Recent searches</h2>
+      <button id="clear-history">Clear</button>
+    </div>
+    <ul id="history-list"></ul>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <p>Built by Group — Peeyush, Piyush Kumar, <strong>Ayush Yadav</strong>, Arpit Raj, Arsh Raj · Section CSE-3</p>
+</footer>
+
+<template id="card-template">
+  <article class="card">
+    <div class="card-top">
+      <span class="card-tag"></span>
+      <span class="card-year"></span>
+    </div>
+    <h3 class="card-title"></h3>
+    <p class="card-creator"></p>
+    <p class="card-why"></p>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>

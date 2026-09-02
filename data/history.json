@@ -1,0 +1,104 @@
+{
+  "entries": [
+    {
+      "id": 1788347982715,
+      "category": "music",
+      "mood": "alag aasman",
+      "items": [
+        {
+          "title": "Kasoor",
+          "creator": "Prateek Kuhad",
+          "year": "2020",
+          "why": "Vulnerable acoustic indie that captures the sweet, fragile anxiety of falling in love across distances.",
+          "tag": "soft indie warmth"
+        },
+        {
+          "title": "Roz Roz",
+          "creator": "The Yellow Diary, Shilpa Rao",
+          "year": "2021",
+          "why": "A lush indie-pop duet detailing the quiet distance and unsaid feelings creeping into modern love.",
+          "tag": "bittersweet duet yearning"
+        },
+        {
+          "title": "Faasle",
+          "creator": "Kaavish",
+          "year": "2009",
+          "why": "Gentle, semi-classical Pakistani indie exploring emotional separation with breathtaking, soothing vocal elegance.",
+          "tag": "melancholic gentle separation"
+        },
+        {
+          "title": "Mystery of Love",
+          "creator": "Sufjan Stevens",
+          "year": "2017",
+          "why": "Tender fingerpicked guitar and whispery vocals create a blissful, fleeting sanctuary for romantic dreamers.",
+          "tag": "delicate acoustic romance"
+        },
+        {
+          "title": "Choo Lo",
+          "creator": "The Local Train",
+          "year": "2015",
+          "why": "Soaring guitar lines and heart-wrenching vocals build an unforgettable anthem about letdown and lingering longing.",
+          "tag": "emotional indie rock"
+        },
+        {
+          "title": "Rivers and Roads",
+          "creator": "The Head and the Heart",
+          "year": "2011",
+          "why": "A swell of acoustic harmonies capturing the ache of moving away from those you love most.",
+          "tag": "nostalgic distance folk"
+        }
+      ],
+      "createdAt": "2026-09-02T11:19:42.715Z"
+    },
+    {
+      "id": 1788347882306,
+      "category": "movie",
+      "mood": "horror",
+      "items": [
+        {
+          "title": "The Thing",
+          "creator": "John Carpenter",
+          "year": "1982",
+          "why": "Paranoia and masterclass practical effects fuse in this icy, claustrophobic tale of an assimilating alien organism.",
+          "tag": "icy claustrophobic dread"
+        },
+        {
+          "title": "Hereditary",
+          "creator": "Ari Aster",
+          "year": "2018",
+          "why": "A harrowing portrait of grief decaying into demonic terror that will linger long after the credits roll.",
+          "tag": "devastating psychological horror"
+        },
+        {
+          "title": "Alien",
+          "creator": "Ridley Scott",
+          "year": "1979",
+          "why": "A masterclass in quiet tension where cosmic isolation meets terrifying, biomechanical nightmare design.",
+          "tag": "atmospheric sci-fi terror"
+        },
+        {
+          "title": "The Shining",
+          "creator": "Stanley Kubrick",
+          "year": "1980",
+          "why": "Isolation turns a snowy mountain hotel into a sprawling, hypnotic labyrinth of maddening psychological decay.",
+          "tag": "feverish psychological descent"
+        },
+        {
+          "title": "Get Out",
+          "creator": "Jordan Peele",
+          "year": "2017",
+          "why": "A razor-sharp social satire wrapped in an unsettling, deeply paranoid horror thriller about insidious control.",
+          "tag": "subversive social thriller"
+        },
+        {
+          "title": "The Wicker Man",
+          "creator": "Robin Hardy",
+          "year": "1973",
+          "why": "Sunlit island paganism and eerie musicality build toward one of cinema's most unforgettable, shocking climaxes.",
+          "tag": "sunlit folk horror"
+        }
+      ],
+      "createdAt": "2026-09-02T11:18:02.306Z"
+    }
+  ]
+}
